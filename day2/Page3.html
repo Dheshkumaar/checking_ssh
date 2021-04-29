@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        div{
+            height: 300px;
+        background-color: red;
+            width: 300px;
+        }
+        #div1{
+            position: relative;
+            left: 0px;
+            top:0px;
+            border-radius: 100px;
+            text-align: center;
+            animation-name: name;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            /*transition: left 5s top 5s;*/
+        }
+        /*@keyframes name{
+            from{
+                left: 0px;
+            }
+            to{
+                left: 100px;
+            }
+        }*/
+        @keyframes name{
+            10%{
+                left:0px;
+                top: 0px;
+            }
+            25%{
+                left:50px;
+                top: 50px;
+                transform: rotate(25deg);
+            }
+            50% {
+                left: 75px;
+                top: 0px;
+                transform: rotate(50deg);
+            }
+            75%{
+                left:100px;
+                top:100px;
+                transform: rotate(75deg);
+            }
+            100%{
+                left:125px;
+                top: 0px;
+                transform: rotate(100deg);
+            }
+        }
+        /*#div1:hover{
+            left:100px;
+            top: 50px;
+        }*/
+        select:disabled{
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div id="div1">HELLO </div>
+    <input type="text" />
+    <br />
+    <input type="text" disabled />
+    <br/>
+    <input type="text" />
+    <br/>
+    <select disabled>
+        <option>A</option>
+        <option>B</option>
+        <option>C</option>
+    </select>
+</body>
+</html>

@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <title>products</title>
+    <script>
+        function myfunction() {
+            var txtName = document.getElementById("txtName");
+            txtName.classList.add("border");
+            if (txtName.value == "") {
+                txtName.classList.add("border-danger");
+                document.getElementById("errName").innerHTML = "Name cannot be empty "
+            } else {
+                txtName.classList.remove("border-danger");
+                txtName.classList.add("border-success");
+                document.getElementById("errName").innerHTML = ""
+            }
+
+            var txtAge = document.getElementById("txtAge");
+            var age = parseInt(txtAge.value);
+            txtAge.classList.add("border");
+            if (age < 18 || age > 56 || isNaN(age)) {
+                txtAge.classList.add("border-danger");
+                document.getElementById("errAge").innerHTML = "Invalid age"
+            } else {
+                txtAge.classList.remove("border-danger");
+                txtAge.classList.add("border-success");
+                document.getElementById("errAge").innerHTML = ""
+            }
+
+            var grpGender = document.getElementsByName("grpGender")
+            if (grpGender[0].checked == false && grpGender[1].checked == false) {
+                document.getElementById("errRadio").innerHTML = "You must select your gender!";
+            }
+            else {
+                document.getElementById("errRadio").innerHTML = ""
+            }
+
+            var txtPhone = document.getElementById("txtPhone");
+            txtPhone.classList.add("border");
+            var phone = txtPhone.value;
+            if (phone.length != 10 || isNaN(phone) ) {
+                txtPhone.classList.add("border-danger");
+                document.getElementById("errPhone").innerHTML = "Phone must be length 10";
+            } else {
+                txtPhone.classList.remove("border-danger");
+                txtPhone.classList.add("border-success");
+                document.getElementById("errPhone").innerHTML = ""
+            }
+
+        }
+    </script>
+    <style>
+        .disp1 {
+            float: left;
+            margin: 10px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <a href="home.html">Home</a>
+        <a href="contactus.html">Contact us</a>
+    </div>
+    <br />
+    <div class="disp1">
+        <h1>ADDRESS</h1>
+        <p> NO:19/10 AnnaStreet,Saligramam,Chennai-600093.</p>
+    </div>
+    <div class="disp1">
+        <h1>Location</h1>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.6996063018305!2d80.1991133146461!3d13.054782990801337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDAzJzE3LjIiTiA4MMKwMTInMDQuNyJF!5e0!3m2!1sen!2sin!4v1618482723925!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <div class="disp1">
+        <h1>Form</h1>
+            <table>
+                <tr>
+                    <td><label for="txtName">Name:</label></td>
+                    <td><input type="text" id="txtName" /></td>
+                    <td><span id="errName"></span></td>
+                </tr>
+                <tr>
+                    <td><label for="txtPhone">Phone:</label></td>
+                    <td><input type="text" id="txtPhone" /></td>
+                    <td><span id="errPhone"></span></td>
+                </tr>
+                <tr>
+                    <td><label for="txtAge">Age:</label></td>
+                    <td><input type="number" id="txtAge"/></td>
+                    <td><span id="errAge"></span></td>
+                </tr>
+                <tr>
+                    <td><label>Gender:</label></td>
+                    <td>
+                        <input type="radio" id="rdbMale" name="grpGender" />Male
+                        <input type="radio" id="rdbFemale" name="grpGender" />Female
+                    </td>
+                    <td><span id="errRadio"></span></td>
+                </tr>
+                <tr>
+                    <td><button class="btn btn-success" onclick="myfunction()">Submit</button></td>
+                    <td><input type="reset" /></td>
+                </tr>
+            </table>
+    </div>
+</body>
+</html>

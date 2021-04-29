@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>CSS</title>
+    <style>
+        div{
+            top:250px;
+            left: 600px;
+            position: absolute;
+            background-color: antiquewhite;
+            border-radius:10px;
+            margin: 10px;
+            padding: 20px;
+        }
+        button,input{
+            border-radius: 10px;
+        }
+        .disp1{
+            /*background-color: lawngreen;*/
+            color: darkgreen;
+        }
+        button.disp1{
+            border: 1px solid darkgreen;
+        }
+        ::placeholder{
+            color:red;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1 style="text-align: center">LOGIN HERE</h1>
+        <form>
+            <label class="disp1" for="txtUsername">Username</label>
+            &nbsp;&nbsp;
+            <input id="txtUsername" type="text" placeholder="Username" />
+            <br /><br />
+            <label class="disp1" for="txtPassword">Password</label>
+            &nbsp;&nbsp;
+            <input id="txtPassword" type="password" placeholder="Password" />
+            <br /><br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="disp1">Submit</button>
+            &nbsp;&nbsp;
+            <button>Reset</button>
+        </form>
+    </div>
+</body>
+</html>

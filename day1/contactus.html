@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>products</title>
+</head>
+<body>
+    <div>
+        <img src="download.png" height="100" width="100" />
+        <font color="blue" face="monotype corsiva " size="+6">PRODUCTS</font>
+    </div>
+    <br/>
+    <div>
+        <a href="home.html">Home</a>
+        <a href="contactus.html">Contact us</a>
+    </div>
+    <br/>
+    <div>
+        <table border="1">
+            <tr>
+                <th>Address</th>
+                <th>Location</th>
+                <th>Form</th>
+            </tr>
+            <tr>
+                <td>NO:19/10, Anna street,<br/>
+                Saligramam,Chennai-600093.</td>
+                <h/>
+                <td> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.6996063018305!2d80.1991133146461!3d13.054782990801337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDAzJzE3LjIiTiA4MMKwMTInMDQuNyJF!5e0!3m2!1sen!2sin!4v1618482723925!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></td>
+                <td>
+                    <form>
+                        <table>
+                            <tr>
+                                <td><label for="txtName">Name:</label></td>
+                                <td><input type="text" id="txtName" required /></td>
+                            </tr>
+                            <tr>
+                                <td><label for="ddlCountry">Country:</label></td>
+                                <td>
+                                    <input list="ddlCountry" />
+                                    <datalist id="ddlCountry">
+                                        <option value="Africa"></option>
+                                        <option value="India"></option>
+                                        <option value="USA"></option>
+                                        <option value="UK"></option>
+                                    </datalist>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label for="txtRemarks">Age:</label></td>
+                                <td><input type="number" id="txtRemarks" min="0" max="100" /></td>
+                            </tr>
+                            <tr>
+                                <td><label>Gender:</label></td>
+                                <td>
+                                    <input type="radio" id="rdbMale" name="grpGender" checked />Male
+                                    <input type="radio" id="rdbFemale" name="grpGender" />Female
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="submit" /></td>
+                                <td><input type="reset" /></td>
+                            </tr>
+                        </table>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
