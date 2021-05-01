@@ -1,0 +1,16 @@
+C:\Users\DHESH KUMAAR A\Desktop\softura\day12\UnderstandingMoreOOPSSolution\UnderstandingMoreOOPSProject\bin\Debug\net5.0\UnderstandingMoreOOPSProject.exe
+C:\Users\DHESH KUMAAR A\Desktop\softura\day12\UnderstandingMoreOOPSSolution\UnderstandingMoreOOPSProject\bin\Debug\net5.0\UnderstandingMoreOOPSProject.deps.json
+C:\Users\DHESH KUMAAR A\Desktop\softura\day12\UnderstandingMoreOOPSSolution\UnderstandingMoreOOPSProject\bin\Debug\net5.0\UnderstandingMoreOOPSProject.runtimeconfig.json
+C:\Users\DHESH KUMAAR A\Desktop\softura\day12\UnderstandingMoreOOPSSolution\UnderstandingMoreOOPSProject\bin\Debug\net5.0\UnderstandingMoreOOPSProject.runtimeconfig.dev.json
+C:\Users\DHESH KUMAAR A\Desktop\softura\day12\UnderstandingMoreOOPSSolution\UnderstandingMoreOOPSProject\bin\Debug\net5.0\UnderstandingMoreOOPSProject.dll
+C:\Users\DHESH KUMAAR A\Desktop\softura\day12\UnderstandingMoreOOPSSolution\UnderstandingMoreOOPSProject\bin\Debug\net5.0\ref\UnderstandingMoreOOPSProject.dll
+C:\Users\DHESH KUMAAR A\Desktop\softura\day12\UnderstandingMoreOOPSSolution\UnderstandingMoreOOPSProject\bin\Debug\net5.0\UnderstandingMoreOOPSProject.pdb
+C:\Users\DHESH KUMAAR A\Desktop\softura\day12\UnderstandingMoreOOPSSolution\UnderstandingMoreOOPSProject\obj\Debug\net5.0\UnderstandingMoreOOPSProject.csprojAssemblyReference.cache
+C:\Users\DHESH KUMAAR A\Desktop\softura\day12\UnderstandingMoreOOPSSolution\UnderstandingMoreOOPSProject\obj\Debug\net5.0\UnderstandingMoreOOPSProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DHESH KUMAAR A\Desktop\softura\day12\UnderstandingMoreOOPSSolution\UnderstandingMoreOOPSProject\obj\Debug\net5.0\UnderstandingMoreOOPSProject.AssemblyInfoInputs.cache
+C:\Users\DHESH KUMAAR A\Desktop\softura\day12\UnderstandingMoreOOPSSolution\UnderstandingMoreOOPSProject\obj\Debug\net5.0\UnderstandingMoreOOPSProject.AssemblyInfo.cs
+C:\Users\DHESH KUMAAR A\Desktop\softura\day12\UnderstandingMoreOOPSSolution\UnderstandingMoreOOPSProject\obj\Debug\net5.0\UnderstandingMoreOOPSProject.csproj.CoreCompileInputs.cache
+C:\Users\DHESH KUMAAR A\Desktop\softura\day12\UnderstandingMoreOOPSSolution\UnderstandingMoreOOPSProject\obj\Debug\net5.0\UnderstandingMoreOOPSProject.dll
+C:\Users\DHESH KUMAAR A\Desktop\softura\day12\UnderstandingMoreOOPSSolution\UnderstandingMoreOOPSProject\obj\Debug\net5.0\ref\UnderstandingMoreOOPSProject.dll
+C:\Users\DHESH KUMAAR A\Desktop\softura\day12\UnderstandingMoreOOPSSolution\UnderstandingMoreOOPSProject\obj\Debug\net5.0\UnderstandingMoreOOPSProject.pdb
+C:\Users\DHESH KUMAAR A\Desktop\softura\day12\UnderstandingMoreOOPSSolution\UnderstandingMoreOOPSProject\obj\Debug\net5.0\UnderstandingMoreOOPSProject.genruntimeconfig.cache
