@@ -1,0 +1,16 @@
+C:\Users\DHESH KUMAAR A\Desktop\softura\day12\ConsoleTaskSolution\ConsoleTaskApplication\bin\Debug\net5.0\ConsoleTaskApplication.exe
+C:\Users\DHESH KUMAAR A\Desktop\softura\day12\ConsoleTaskSolution\ConsoleTaskApplication\bin\Debug\net5.0\ConsoleTaskApplication.deps.json
+C:\Users\DHESH KUMAAR A\Desktop\softura\day12\ConsoleTaskSolution\ConsoleTaskApplication\bin\Debug\net5.0\ConsoleTaskApplication.runtimeconfig.json
+C:\Users\DHESH KUMAAR A\Desktop\softura\day12\ConsoleTaskSolution\ConsoleTaskApplication\bin\Debug\net5.0\ConsoleTaskApplication.runtimeconfig.dev.json
+C:\Users\DHESH KUMAAR A\Desktop\softura\day12\ConsoleTaskSolution\ConsoleTaskApplication\bin\Debug\net5.0\ConsoleTaskApplication.dll
+C:\Users\DHESH KUMAAR A\Desktop\softura\day12\ConsoleTaskSolution\ConsoleTaskApplication\bin\Debug\net5.0\ref\ConsoleTaskApplication.dll
+C:\Users\DHESH KUMAAR A\Desktop\softura\day12\ConsoleTaskSolution\ConsoleTaskApplication\bin\Debug\net5.0\ConsoleTaskApplication.pdb
+C:\Users\DHESH KUMAAR A\Desktop\softura\day12\ConsoleTaskSolution\ConsoleTaskApplication\obj\Debug\net5.0\ConsoleTaskApplication.csprojAssemblyReference.cache
+C:\Users\DHESH KUMAAR A\Desktop\softura\day12\ConsoleTaskSolution\ConsoleTaskApplication\obj\Debug\net5.0\ConsoleTaskApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DHESH KUMAAR A\Desktop\softura\day12\ConsoleTaskSolution\ConsoleTaskApplication\obj\Debug\net5.0\ConsoleTaskApplication.AssemblyInfoInputs.cache
+C:\Users\DHESH KUMAAR A\Desktop\softura\day12\ConsoleTaskSolution\ConsoleTaskApplication\obj\Debug\net5.0\ConsoleTaskApplication.AssemblyInfo.cs
+C:\Users\DHESH KUMAAR A\Desktop\softura\day12\ConsoleTaskSolution\ConsoleTaskApplication\obj\Debug\net5.0\ConsoleTaskApplication.csproj.CoreCompileInputs.cache
+C:\Users\DHESH KUMAAR A\Desktop\softura\day12\ConsoleTaskSolution\ConsoleTaskApplication\obj\Debug\net5.0\ConsoleTaskApplication.dll
+C:\Users\DHESH KUMAAR A\Desktop\softura\day12\ConsoleTaskSolution\ConsoleTaskApplication\obj\Debug\net5.0\ref\ConsoleTaskApplication.dll
+C:\Users\DHESH KUMAAR A\Desktop\softura\day12\ConsoleTaskSolution\ConsoleTaskApplication\obj\Debug\net5.0\ConsoleTaskApplication.pdb
+C:\Users\DHESH KUMAAR A\Desktop\softura\day12\ConsoleTaskSolution\ConsoleTaskApplication\obj\Debug\net5.0\ConsoleTaskApplication.genruntimeconfig.cache

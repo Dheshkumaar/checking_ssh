@@ -1,0 +1,16 @@
+C:\Users\DHESH KUMAAR A\Desktop\softura\day13\CollectionsSolution\CollectionsProject\bin\Debug\net5.0\CollectionsProject.exe
+C:\Users\DHESH KUMAAR A\Desktop\softura\day13\CollectionsSolution\CollectionsProject\bin\Debug\net5.0\CollectionsProject.deps.json
+C:\Users\DHESH KUMAAR A\Desktop\softura\day13\CollectionsSolution\CollectionsProject\bin\Debug\net5.0\CollectionsProject.runtimeconfig.json
+C:\Users\DHESH KUMAAR A\Desktop\softura\day13\CollectionsSolution\CollectionsProject\bin\Debug\net5.0\CollectionsProject.runtimeconfig.dev.json
+C:\Users\DHESH KUMAAR A\Desktop\softura\day13\CollectionsSolution\CollectionsProject\bin\Debug\net5.0\CollectionsProject.dll
+C:\Users\DHESH KUMAAR A\Desktop\softura\day13\CollectionsSolution\CollectionsProject\bin\Debug\net5.0\ref\CollectionsProject.dll
+C:\Users\DHESH KUMAAR A\Desktop\softura\day13\CollectionsSolution\CollectionsProject\bin\Debug\net5.0\CollectionsProject.pdb
+C:\Users\DHESH KUMAAR A\Desktop\softura\day13\CollectionsSolution\CollectionsProject\obj\Debug\net5.0\CollectionsProject.csprojAssemblyReference.cache
+C:\Users\DHESH KUMAAR A\Desktop\softura\day13\CollectionsSolution\CollectionsProject\obj\Debug\net5.0\CollectionsProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DHESH KUMAAR A\Desktop\softura\day13\CollectionsSolution\CollectionsProject\obj\Debug\net5.0\CollectionsProject.AssemblyInfoInputs.cache
+C:\Users\DHESH KUMAAR A\Desktop\softura\day13\CollectionsSolution\CollectionsProject\obj\Debug\net5.0\CollectionsProject.AssemblyInfo.cs
+C:\Users\DHESH KUMAAR A\Desktop\softura\day13\CollectionsSolution\CollectionsProject\obj\Debug\net5.0\CollectionsProject.csproj.CoreCompileInputs.cache
+C:\Users\DHESH KUMAAR A\Desktop\softura\day13\CollectionsSolution\CollectionsProject\obj\Debug\net5.0\CollectionsProject.dll
+C:\Users\DHESH KUMAAR A\Desktop\softura\day13\CollectionsSolution\CollectionsProject\obj\Debug\net5.0\ref\CollectionsProject.dll
+C:\Users\DHESH KUMAAR A\Desktop\softura\day13\CollectionsSolution\CollectionsProject\obj\Debug\net5.0\CollectionsProject.pdb
+C:\Users\DHESH KUMAAR A\Desktop\softura\day13\CollectionsSolution\CollectionsProject\obj\Debug\net5.0\CollectionsProject.genruntimeconfig.cache

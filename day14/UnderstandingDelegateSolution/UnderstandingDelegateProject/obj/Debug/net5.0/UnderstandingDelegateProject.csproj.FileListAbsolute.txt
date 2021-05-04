@@ -1,0 +1,16 @@
+C:\Users\DHESH KUMAAR A\Desktop\softura\day14\UnderstandingDelegateSolution\UnderstandingDelegateProject\bin\Debug\net5.0\UnderstandingDelegateProject.exe
+C:\Users\DHESH KUMAAR A\Desktop\softura\day14\UnderstandingDelegateSolution\UnderstandingDelegateProject\bin\Debug\net5.0\UnderstandingDelegateProject.deps.json
+C:\Users\DHESH KUMAAR A\Desktop\softura\day14\UnderstandingDelegateSolution\UnderstandingDelegateProject\bin\Debug\net5.0\UnderstandingDelegateProject.runtimeconfig.json
+C:\Users\DHESH KUMAAR A\Desktop\softura\day14\UnderstandingDelegateSolution\UnderstandingDelegateProject\bin\Debug\net5.0\UnderstandingDelegateProject.runtimeconfig.dev.json
+C:\Users\DHESH KUMAAR A\Desktop\softura\day14\UnderstandingDelegateSolution\UnderstandingDelegateProject\bin\Debug\net5.0\UnderstandingDelegateProject.dll
+C:\Users\DHESH KUMAAR A\Desktop\softura\day14\UnderstandingDelegateSolution\UnderstandingDelegateProject\bin\Debug\net5.0\ref\UnderstandingDelegateProject.dll
+C:\Users\DHESH KUMAAR A\Desktop\softura\day14\UnderstandingDelegateSolution\UnderstandingDelegateProject\bin\Debug\net5.0\UnderstandingDelegateProject.pdb
+C:\Users\DHESH KUMAAR A\Desktop\softura\day14\UnderstandingDelegateSolution\UnderstandingDelegateProject\obj\Debug\net5.0\UnderstandingDelegateProject.csprojAssemblyReference.cache
+C:\Users\DHESH KUMAAR A\Desktop\softura\day14\UnderstandingDelegateSolution\UnderstandingDelegateProject\obj\Debug\net5.0\UnderstandingDelegateProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DHESH KUMAAR A\Desktop\softura\day14\UnderstandingDelegateSolution\UnderstandingDelegateProject\obj\Debug\net5.0\UnderstandingDelegateProject.AssemblyInfoInputs.cache
+C:\Users\DHESH KUMAAR A\Desktop\softura\day14\UnderstandingDelegateSolution\UnderstandingDelegateProject\obj\Debug\net5.0\UnderstandingDelegateProject.AssemblyInfo.cs
+C:\Users\DHESH KUMAAR A\Desktop\softura\day14\UnderstandingDelegateSolution\UnderstandingDelegateProject\obj\Debug\net5.0\UnderstandingDelegateProject.csproj.CoreCompileInputs.cache
+C:\Users\DHESH KUMAAR A\Desktop\softura\day14\UnderstandingDelegateSolution\UnderstandingDelegateProject\obj\Debug\net5.0\UnderstandingDelegateProject.dll
+C:\Users\DHESH KUMAAR A\Desktop\softura\day14\UnderstandingDelegateSolution\UnderstandingDelegateProject\obj\Debug\net5.0\ref\UnderstandingDelegateProject.dll
+C:\Users\DHESH KUMAAR A\Desktop\softura\day14\UnderstandingDelegateSolution\UnderstandingDelegateProject\obj\Debug\net5.0\UnderstandingDelegateProject.pdb
+C:\Users\DHESH KUMAAR A\Desktop\softura\day14\UnderstandingDelegateSolution\UnderstandingDelegateProject\obj\Debug\net5.0\UnderstandingDelegateProject.genruntimeconfig.cache
