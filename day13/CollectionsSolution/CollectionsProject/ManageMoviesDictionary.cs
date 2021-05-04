@@ -16,7 +16,9 @@ namespace CollectionsProject
         {
             if (movies.Count == 0)
                 return 1;
-            int id = movies[movies.Count].Id;
+            List<int> ids = movies.Keys.ToList();
+            ids.Sort();
+            int id = ids[ids.Count-1];
             id++;
             return id;
         }
@@ -37,10 +39,17 @@ namespace CollectionsProject
             Movie movie = null;
             int idx = GetMovieIndexById(id);
             idx = idx + 1;
-            if (idx != -1)
+            try
             {
-                movies[idx].Name = name;
-                movie = movies[idx];
+                if (idx != -1)
+                {
+                    movies[idx].Name = name;
+                    movie = movies[idx];
+                }
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("Id not available");
             }
             return movie;
         }
@@ -50,10 +59,15 @@ namespace CollectionsProject
             int id = Convert.ToInt32(Console.ReadLine());
             int idx = GetMovieIndexById(id);
             idx = idx + 1;
-            if (idx >= 0)
-                PrintMovie(movies[idx]);
-            else
+            try
+            {
+                if (idx >= 0)
+                    PrintMovie(movies[idx]);
+            }
+            catch (Exception)
+            {
                 Console.WriteLine("No such movie");
+            }
         }
         private void DeleteMovie()
         {
@@ -61,10 +75,9 @@ namespace CollectionsProject
             try
             {
                 int id = Convert.ToInt32(Console.ReadLine());
-                movies.Remove(GetMovieIndexById(id));
-
+                movies.Remove(id);
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 Console.WriteLine("Oops something went wrong. Please try again");
             }
@@ -74,22 +87,20 @@ namespace CollectionsProject
             Movie movie = null;
             int idx = GetMovieIndexById(id);
             idx = idx + 1;
-            if (idx != -1)
+            try
             {
-                movies[idx].Duration = duration;
-                movie = movies[idx];
+                if (idx != -1)
+                {
+                    movies[idx].Duration = duration;
+                    movie = movies[idx];
+                }
             }
+            catch (Exception)
+            {
+
+                Console.WriteLine("id not available");
+            }            
             return movie;
-        }
-        public void PrintMovieById(int id)
-        {
-            int idx = GetMovieIndexById(id);
-            if (idx != -1)
-            {
-                PrintMovie(movies[idx]);
-            }
-            else
-                Console.WriteLine("No such movie");
         }
         public void PrintAllMovies()
         {
@@ -121,7 +132,7 @@ namespace CollectionsProject
                 {
                     choice = Convert.ToInt32(Console.ReadLine());
                 }
-                catch (FormatException formatException)
+                catch (FormatException)
                 {
                     Console.WriteLine("Not a correct input");
                 }
@@ -225,7 +236,6 @@ namespace CollectionsProject
         public static void Main(string[] a)
         {
             new ManageMoviesDictionary().PrintMenu();
-            Console.ReadKey();
         }
     }
 }

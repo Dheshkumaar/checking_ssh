@@ -1,0 +1,12 @@
+C:\Users\DHESH KUMAAR A\Desktop\softura\day14\TransportManagementSolution\TransportManagementBLLibrary\bin\Debug\net5.0\TransportManagementBLLibrary.deps.json
+C:\Users\DHESH KUMAAR A\Desktop\softura\day14\TransportManagementSolution\TransportManagementBLLibrary\bin\Debug\net5.0\TransportManagementBLLibrary.dll
+C:\Users\DHESH KUMAAR A\Desktop\softura\day14\TransportManagementSolution\TransportManagementBLLibrary\bin\Debug\net5.0\ref\TransportManagementBLLibrary.dll
+C:\Users\DHESH KUMAAR A\Desktop\softura\day14\TransportManagementSolution\TransportManagementBLLibrary\bin\Debug\net5.0\TransportManagementBLLibrary.pdb
+C:\Users\DHESH KUMAAR A\Desktop\softura\day14\TransportManagementSolution\TransportManagementBLLibrary\obj\Debug\net5.0\TransportManagementBLLibrary.csprojAssemblyReference.cache
+C:\Users\DHESH KUMAAR A\Desktop\softura\day14\TransportManagementSolution\TransportManagementBLLibrary\obj\Debug\net5.0\TransportManagementBLLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DHESH KUMAAR A\Desktop\softura\day14\TransportManagementSolution\TransportManagementBLLibrary\obj\Debug\net5.0\TransportManagementBLLibrary.AssemblyInfoInputs.cache
+C:\Users\DHESH KUMAAR A\Desktop\softura\day14\TransportManagementSolution\TransportManagementBLLibrary\obj\Debug\net5.0\TransportManagementBLLibrary.AssemblyInfo.cs
+C:\Users\DHESH KUMAAR A\Desktop\softura\day14\TransportManagementSolution\TransportManagementBLLibrary\obj\Debug\net5.0\TransportManagementBLLibrary.csproj.CoreCompileInputs.cache
+C:\Users\DHESH KUMAAR A\Desktop\softura\day14\TransportManagementSolution\TransportManagementBLLibrary\obj\Debug\net5.0\TransportManagementBLLibrary.dll
+C:\Users\DHESH KUMAAR A\Desktop\softura\day14\TransportManagementSolution\TransportManagementBLLibrary\obj\Debug\net5.0\ref\TransportManagementBLLibrary.dll
+C:\Users\DHESH KUMAAR A\Desktop\softura\day14\TransportManagementSolution\TransportManagementBLLibrary\obj\Debug\net5.0\TransportManagementBLLibrary.pdb

@@ -11,7 +11,7 @@ namespace TransportManagementFEProject
         }
         void PrintMenu()
         {
-            int choice = 0,choice1=0;
+            int choice = 0;
             do
             {
                 Console.WriteLine("1.Login");
@@ -22,16 +22,6 @@ namespace TransportManagementFEProject
                 {
                     case 1:
                         login.Login();
-                        do
-                        {
-                            choice1 = Convert.ToInt32(Console.ReadLine());
-                            switch (choice1)
-                            {
-                                case 1:
-
-                                    break;
-                            }
-                        } while (choice1 != 3);
                         break;
                     case 2:
                         login.Register();
