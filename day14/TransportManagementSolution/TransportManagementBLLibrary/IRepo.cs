@@ -10,5 +10,6 @@ namespace TransportManagementBLLibrary
         void Update(int id, T t);
         ICollection<T> GetAll();
         T Get(int id);
+        void Delete(int id);
     }
 }

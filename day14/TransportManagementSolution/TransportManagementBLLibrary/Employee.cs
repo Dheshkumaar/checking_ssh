@@ -36,7 +36,8 @@ namespace TransportManagementBLLibrary
         public override string ToString()
         {
             string maskedPassword = GetMaskedPassword(Password);
-            return "Employee ID: "+Id+" Name: "+Name+" Phone: "+Phone+" Location: "+Location;
+            return "Employee ID: "+Id+" Name: "+Name+" Phone: "+Phone+" Location: "+Location+
+                " Password:"+maskedPassword;
         }
 
         private string GetMaskedPassword(string password)

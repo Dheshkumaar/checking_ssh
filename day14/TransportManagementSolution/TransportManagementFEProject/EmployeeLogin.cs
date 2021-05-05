@@ -10,7 +10,11 @@ namespace TransportManagementFEProject
         ILogin<Employee> repo;
         public EmployeeLogin()
         {
-            repo = new EmployeeRepo();
+            //repo = new EmployeeRepo();
+        }
+        public EmployeeLogin(ILogin<Employee> employeeRepo)
+        {
+            repo = employeeRepo;
         }
         public void Register()
         {

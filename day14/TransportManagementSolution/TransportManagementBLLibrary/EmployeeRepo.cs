@@ -71,5 +71,10 @@ namespace TransportManagementBLLibrary
         {
             throw new NotImplementedException();
         }
+
+        public void Delete(int id)
+        {
+            employees.Remove(id);
+        }
     }
 }
