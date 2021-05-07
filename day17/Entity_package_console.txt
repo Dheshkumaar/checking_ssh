@@ -1,0 +1,7 @@
+Scaffold-DbContext "Server=.;Database=dbSoftTraining;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir TrainingModel
+
+
+3 tools to download
+1. entity Frameworks core
+2. entity Frameworks core.sqlserver
+3. entity Frameworks core.tools 
