@@ -1,0 +1,16 @@
+C:\Users\DHESH KUMAAR A\Desktop\softura\day19\UnderstandingLINQSolution\UnderstandingLINQ\bin\Debug\net5.0\UnderstandingLINQ.exe
+C:\Users\DHESH KUMAAR A\Desktop\softura\day19\UnderstandingLINQSolution\UnderstandingLINQ\bin\Debug\net5.0\UnderstandingLINQ.deps.json
+C:\Users\DHESH KUMAAR A\Desktop\softura\day19\UnderstandingLINQSolution\UnderstandingLINQ\bin\Debug\net5.0\UnderstandingLINQ.runtimeconfig.json
+C:\Users\DHESH KUMAAR A\Desktop\softura\day19\UnderstandingLINQSolution\UnderstandingLINQ\bin\Debug\net5.0\UnderstandingLINQ.runtimeconfig.dev.json
+C:\Users\DHESH KUMAAR A\Desktop\softura\day19\UnderstandingLINQSolution\UnderstandingLINQ\bin\Debug\net5.0\UnderstandingLINQ.dll
+C:\Users\DHESH KUMAAR A\Desktop\softura\day19\UnderstandingLINQSolution\UnderstandingLINQ\bin\Debug\net5.0\ref\UnderstandingLINQ.dll
+C:\Users\DHESH KUMAAR A\Desktop\softura\day19\UnderstandingLINQSolution\UnderstandingLINQ\bin\Debug\net5.0\UnderstandingLINQ.pdb
+C:\Users\DHESH KUMAAR A\Desktop\softura\day19\UnderstandingLINQSolution\UnderstandingLINQ\obj\Debug\net5.0\UnderstandingLINQ.csprojAssemblyReference.cache
+C:\Users\DHESH KUMAAR A\Desktop\softura\day19\UnderstandingLINQSolution\UnderstandingLINQ\obj\Debug\net5.0\UnderstandingLINQ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DHESH KUMAAR A\Desktop\softura\day19\UnderstandingLINQSolution\UnderstandingLINQ\obj\Debug\net5.0\UnderstandingLINQ.AssemblyInfoInputs.cache
+C:\Users\DHESH KUMAAR A\Desktop\softura\day19\UnderstandingLINQSolution\UnderstandingLINQ\obj\Debug\net5.0\UnderstandingLINQ.AssemblyInfo.cs
+C:\Users\DHESH KUMAAR A\Desktop\softura\day19\UnderstandingLINQSolution\UnderstandingLINQ\obj\Debug\net5.0\UnderstandingLINQ.csproj.CoreCompileInputs.cache
+C:\Users\DHESH KUMAAR A\Desktop\softura\day19\UnderstandingLINQSolution\UnderstandingLINQ\obj\Debug\net5.0\UnderstandingLINQ.dll
+C:\Users\DHESH KUMAAR A\Desktop\softura\day19\UnderstandingLINQSolution\UnderstandingLINQ\obj\Debug\net5.0\ref\UnderstandingLINQ.dll
+C:\Users\DHESH KUMAAR A\Desktop\softura\day19\UnderstandingLINQSolution\UnderstandingLINQ\obj\Debug\net5.0\UnderstandingLINQ.pdb
+C:\Users\DHESH KUMAAR A\Desktop\softura\day19\UnderstandingLINQSolution\UnderstandingLINQ\obj\Debug\net5.0\UnderstandingLINQ.genruntimeconfig.cache
