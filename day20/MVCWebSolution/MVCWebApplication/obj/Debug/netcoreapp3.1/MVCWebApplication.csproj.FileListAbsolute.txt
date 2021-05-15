@@ -107,3 +107,6 @@ C:\Users\DHESH KUMAAR A\Desktop\softura\day20\MVCWebSolution\MVCWebApplication\o
 C:\Users\DHESH KUMAAR A\Desktop\softura\day20\MVCWebSolution\MVCWebApplication\obj\Debug\netcoreapp3.1\Razor\Views\Post\Index.cshtml.g.cs
 C:\Users\DHESH KUMAAR A\Desktop\softura\day20\MVCWebSolution\MVCWebApplication\obj\Debug\netcoreapp3.1\Razor\Views\Post\Create.cshtml.g.cs
 C:\Users\DHESH KUMAAR A\Desktop\softura\day20\MVCWebSolution\MVCWebApplication\obj\Debug\netcoreapp3.1\Razor\Views\Post\Edit.cshtml.g.cs
+C:\Users\DHESH KUMAAR A\Desktop\softura\day20\MVCWebSolution\MVCWebApplication\obj\Debug\netcoreapp3.1\Razor\Views\Comment\Create.cshtml.g.cs
+C:\Users\DHESH KUMAAR A\Desktop\softura\day20\MVCWebSolution\MVCWebApplication\obj\Debug\netcoreapp3.1\Razor\Views\Comment\Index.cshtml.g.cs
+C:\Users\DHESH KUMAAR A\Desktop\softura\day20\MVCWebSolution\MVCWebApplication\obj\Debug\netcoreapp3.1\Razor\Views\Comment\Edit.cshtml.g.cs
