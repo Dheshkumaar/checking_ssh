@@ -1,0 +1,9 @@
+step 3
+Create model Employee(id,name,age,username(fk)) ,Salary(salary_id,salary,employeeid(fk),date)
+Enter data in database after model creation
+
+Step 4
+When the employee logs in show his salary details in the index page
+
+
+https://www.hackerrank.com/challenges/array-left-rotation/problem

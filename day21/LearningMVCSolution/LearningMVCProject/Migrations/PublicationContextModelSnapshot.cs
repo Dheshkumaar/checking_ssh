@@ -55,9 +55,6 @@ namespace LearningMVCProject.Migrations
                     b.Property<int?>("AuthorId")
                         .HasColumnType("int");
 
-                    b.Property<int>("Author_id")
-                        .HasColumnType("int");
-
                     b.Property<float>("Price")
                         .HasColumnType("real");
 
@@ -69,15 +66,6 @@ namespace LearningMVCProject.Migrations
                     b.HasIndex("AuthorId");
 
                     b.ToTable("Books");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            Author_id = 1,
-                            Price = 120f,
-                            Title = "x-men"
-                        });
                 });
 
             modelBuilder.Entity("LearningMVCProject.Models.Book", b =>

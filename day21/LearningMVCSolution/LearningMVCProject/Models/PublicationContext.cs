@@ -19,8 +19,6 @@ namespace LearningMVCProject.Models
             modelBuilder.Entity<Author>().HasData(
                 new Author() { Id = 1, name = "Ramu", About = "From india" });
 
-            modelBuilder.Entity<Book>().HasData(
-                new Book() { Id = 1, Title = "x-men", Price = 120, Author_id = 1 });
         }
     }
 }

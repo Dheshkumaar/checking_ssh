@@ -44,8 +44,19 @@
                 @Html.DisplayFor(modelItem => item.About)
             </td>
             <td>
-                @Html.ActionLink("Edit", "Edit", new {  id=item.Id }) |
-                @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+                @foreach (var bookitem in item.Books)
+                { 
+                    @bookitem.Id
+                    <br/>
+                    @bookitem.Title
+                    <br/>
+                    @bookitem.Price
+                    <br/>
+                }
+                </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.Id })
             </td>
         </tr>
 }
