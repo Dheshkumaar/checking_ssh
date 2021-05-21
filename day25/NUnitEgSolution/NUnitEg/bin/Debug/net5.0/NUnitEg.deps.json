@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "NUnitEg/1.0.0": {
+        "runtime": {
+          "NUnitEg.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NUnitEg/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

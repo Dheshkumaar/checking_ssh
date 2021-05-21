@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9F4JEri6/coEyokp9905urdXz5gkg9G5Ckyut8iQmePoLHDlfnyaqve56d+REUW51RqfW3pC06MG7p712oewLg==",
+  "dgSpecHash": "g1RZ1ZUgs1sg9dn1tejRm0Gie17qFuTVWyGaTxkhVZ1kLeNtUkKN1iD6vdQIWg8riYBn1WJBYnZscY3TOoPwZg==",
   "success": true,
   "projectFilePath": "C:\\Users\\DHESH KUMAAR A\\Desktop\\softura\\day24\\TaskAPISolution\\TaskAPI\\TaskAPI.csproj",
   "expectedPackageFiles": [
@@ -55,7 +55,7 @@
     "C:\\Users\\DHESH KUMAAR A\\.nuget\\packages\\microsoft.visualstudio.web.codegenerators.mvc\\5.0.2\\microsoft.visualstudio.web.codegenerators.mvc.5.0.2.nupkg.sha512",
     "C:\\Users\\DHESH KUMAAR A\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\DHESH KUMAAR A\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
-    "C:\\Users\\DHESH KUMAAR A\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\DHESH KUMAAR A\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\DHESH KUMAAR A\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\DHESH KUMAAR A\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "C:\\Users\\DHESH KUMAAR A\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",

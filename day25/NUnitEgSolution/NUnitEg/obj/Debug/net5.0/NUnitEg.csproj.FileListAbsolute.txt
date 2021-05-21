@@ -1,0 +1,16 @@
+C:\Users\DHESH KUMAAR A\Desktop\softura\day25\NUnitEgSolution\NUnitEg\bin\Debug\net5.0\NUnitEg.exe
+C:\Users\DHESH KUMAAR A\Desktop\softura\day25\NUnitEgSolution\NUnitEg\bin\Debug\net5.0\NUnitEg.deps.json
+C:\Users\DHESH KUMAAR A\Desktop\softura\day25\NUnitEgSolution\NUnitEg\bin\Debug\net5.0\NUnitEg.runtimeconfig.json
+C:\Users\DHESH KUMAAR A\Desktop\softura\day25\NUnitEgSolution\NUnitEg\bin\Debug\net5.0\NUnitEg.runtimeconfig.dev.json
+C:\Users\DHESH KUMAAR A\Desktop\softura\day25\NUnitEgSolution\NUnitEg\bin\Debug\net5.0\NUnitEg.dll
+C:\Users\DHESH KUMAAR A\Desktop\softura\day25\NUnitEgSolution\NUnitEg\bin\Debug\net5.0\ref\NUnitEg.dll
+C:\Users\DHESH KUMAAR A\Desktop\softura\day25\NUnitEgSolution\NUnitEg\bin\Debug\net5.0\NUnitEg.pdb
+C:\Users\DHESH KUMAAR A\Desktop\softura\day25\NUnitEgSolution\NUnitEg\obj\Debug\net5.0\NUnitEg.csprojAssemblyReference.cache
+C:\Users\DHESH KUMAAR A\Desktop\softura\day25\NUnitEgSolution\NUnitEg\obj\Debug\net5.0\NUnitEg.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DHESH KUMAAR A\Desktop\softura\day25\NUnitEgSolution\NUnitEg\obj\Debug\net5.0\NUnitEg.AssemblyInfoInputs.cache
+C:\Users\DHESH KUMAAR A\Desktop\softura\day25\NUnitEgSolution\NUnitEg\obj\Debug\net5.0\NUnitEg.AssemblyInfo.cs
+C:\Users\DHESH KUMAAR A\Desktop\softura\day25\NUnitEgSolution\NUnitEg\obj\Debug\net5.0\NUnitEg.csproj.CoreCompileInputs.cache
+C:\Users\DHESH KUMAAR A\Desktop\softura\day25\NUnitEgSolution\NUnitEg\obj\Debug\net5.0\NUnitEg.dll
+C:\Users\DHESH KUMAAR A\Desktop\softura\day25\NUnitEgSolution\NUnitEg\obj\Debug\net5.0\ref\NUnitEg.dll
+C:\Users\DHESH KUMAAR A\Desktop\softura\day25\NUnitEgSolution\NUnitEg\obj\Debug\net5.0\NUnitEg.pdb
+C:\Users\DHESH KUMAAR A\Desktop\softura\day25\NUnitEgSolution\NUnitEg\obj\Debug\net5.0\NUnitEg.genruntimeconfig.cache

@@ -17,14 +17,14 @@ namespace TaskMVC.Controllers
         // GET: SBAccountController
         public async Task<ActionResult> Index()
         {
-            string BaseUrl = "http://localhost:40347/";
+            string BaseUrl = "http://localhost:41939/";
             var AccountInfo = new List<SBAccount>();
             using (var client = new HttpClient())
             {
                 client.BaseAddress = new Uri(BaseUrl);
                 client.DefaultRequestHeaders.Clear();
                 client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-                HttpResponseMessage Res = await client.GetAsync("api/SBAccounts");
+                HttpResponseMessage Res = await client.GetAsync("api/Transactions/Accounts");
                 if (Res.IsSuccessStatusCode)
                 {
                     var BlogResponse = Res.Content.ReadAsStringAsync().Result;
@@ -138,5 +138,6 @@ namespace TaskMVC.Controllers
             }
             return RedirectToAction("Index");
         }
+        
     }
 }
