@@ -1,0 +1,7 @@
+C:\Users\DHESH KUMAAR A\Desktop\softura\11-06-2021\Exploredb\Exploredb\bin\Debug\Exploredb.exe.config
+C:\Users\DHESH KUMAAR A\Desktop\softura\11-06-2021\Exploredb\Exploredb\bin\Debug\Exploredb.exe
+C:\Users\DHESH KUMAAR A\Desktop\softura\11-06-2021\Exploredb\Exploredb\bin\Debug\Exploredb.pdb
+C:\Users\DHESH KUMAAR A\Desktop\softura\11-06-2021\Exploredb\Exploredb\obj\Debug\Exploredb.csprojAssemblyReference.cache
+C:\Users\DHESH KUMAAR A\Desktop\softura\11-06-2021\Exploredb\Exploredb\obj\Debug\Exploredb.csproj.CoreCompileInputs.cache
+C:\Users\DHESH KUMAAR A\Desktop\softura\11-06-2021\Exploredb\Exploredb\obj\Debug\Exploredb.exe
+C:\Users\DHESH KUMAAR A\Desktop\softura\11-06-2021\Exploredb\Exploredb\obj\Debug\Exploredb.pdb
