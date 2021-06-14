@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31313.79
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exploredb", "Exploredb\Exploredb.csproj", "{2E7EB0C9-4B76-4461-9636-83E1557DF5B6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCWithADO", "MVCWithADO\MVCWithADO.csproj", "{A7A822F7-3BAD-48E7-A647-F684C62D6B9C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{2E7EB0C9-4B76-4461-9636-83E1557DF5B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E7EB0C9-4B76-4461-9636-83E1557DF5B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E7EB0C9-4B76-4461-9636-83E1557DF5B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7A822F7-3BAD-48E7-A647-F684C62D6B9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7A822F7-3BAD-48E7-A647-F684C62D6B9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7A822F7-3BAD-48E7-A647-F684C62D6B9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7A822F7-3BAD-48E7-A647-F684C62D6B9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

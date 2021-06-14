@@ -11,6 +11,27 @@ namespace Exploredb
 {
     class Program
     {
+        public void SelectBooks_Authors()
+        {
+            SqlConnection con = new SqlConnection("data source=DHESH;database=BookDb;Integrated security=true;");
+            SqlCommand cmd = new SqlCommand("select * from tbl_Book b join tbl_author a on a.AuthorId=b.AuthorId", con);
+            con.Open();
+            SqlDataReader read = cmd.ExecuteReader();
+            while (read.Read())
+                Console.WriteLine(read["BookId"] + " " + read["AuthorId"] + " " + read["AuthorName"] + " " + read["Title"] + " " + read["Price"].ToString());
+            con.Close();
+
+        }
+        public void DeleteAuthor()
+        {
+            SqlConnection con = new SqlConnection("data source=DHESH;database=BookDb;Integrated security=true;");
+            SqlCommand cmd = new SqlCommand("DELETE FROM tbl_author WHERE AuthorId=109", con);
+            con.Open();
+            cmd.ExecuteNonQuery();
+            con.Close();
+            Console.WriteLine("Author Deleted Successfully!!!!!!!!");
+
+        }
         public string BookSP(string title,int aid,double price)
         {
             string res = null;
