@@ -1,4 +1,4 @@
-﻿
+﻿@model System.Data.DataTable
 @{
     Layout = null;
 }
@@ -11,7 +11,15 @@
     <title>Edit</title>
 </head>
 <body>
-    <div> 
+    <div>
+        <form id="formedit" method="post" action="@Url.Action("Update")">
+            BookId :<input name="txtBookId" value="@Model.Rows[0]["BookId"]"><br>
+            BookTitle :<input name="txtTitle" value="@Model.Rows[0]["Title"]"><br>
+            AuthorId :<input name="txtAid" value="@Model.Rows[0]["AuthorId"]"><br>
+            Price :<input name="txtPrice" value="@Model.Rows[0]["Price"]"><br>
+            <input type="submit" name="action" value="submit">
+            <input type="submit" name="action" value="Cancel">
+        </form>
     </div>
 </body>
 </html>

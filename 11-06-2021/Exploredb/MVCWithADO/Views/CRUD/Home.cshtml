@@ -16,7 +16,7 @@
         <form method="post" name="display">
             <h2>Home</h2>
             @Html.ActionLink("Add New BOOK","Insert")
-            @Html.ActionLink("Display Authors", "Author")
+            @*@Html.ActionLink("Display Authors", "Author")*@
             <br>
             @{ 
                 if(Model.Rows.Count > 0)
@@ -26,7 +26,7 @@
                                 <tr>
                                     <td>BookID</td>
                                     <td>Title of the Book</td>
-                                    <td>Author Id</td>
+                                    <td>Author Name</td>
                                     <td>Price</td>
                                 </tr>
                             </thead>
@@ -35,8 +35,10 @@
                                 <tr>
                                     <td>@dr["BookId"].ToString()</td>
                                     <td>@dr["Title"].ToString()</td>
-                                    <td>@dr["AuthorId"].ToString()</td>
+                                    <td>@dr["AuthorName"].ToString()</td>
                                     <td>@dr["Price"].ToString()</td>
+                                    <td>@Html.ActionLink("Edit","Edit",new { bookId = dr["BookId"].ToString()})</td>
+                                    <td>@Html.ActionLink("Delete", "Delete", new { BookId = dr["BookId"].ToString()})</td>
                                 </tr>
                             }
                         </table>
