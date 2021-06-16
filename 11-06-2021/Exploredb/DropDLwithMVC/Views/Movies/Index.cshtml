@@ -1,0 +1,48 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<body>
+    <div>
+        <table border="1">
+            <tr>
+                <td>Technique</td>
+                <td>Data</td>
+            </tr>
+            <tr>
+                <td>Hardcoded Data</td>
+                <td>
+                    @Html.DropDownList("MoviesList", new List<SelectListItem>
+                      {
+                       new SelectListItem{ Text ="Roman Holiday" ,Value="1"},
+                       new SelectListItem{ Text ="Pretty Woman" ,Value="2"},
+                       new SelectListItem{ Text ="Great Escape" ,Value="3"},
+                       new SelectListItem{ Text ="Boy with stripped Pyjama" ,Value="4"},
+                       new SelectListItem{ Text ="Memories" ,Value="5"},
+                       new SelectListItem{ Text ="12 Age" ,Value="6"},
+                       new SelectListItem{ Text ="Love story 1972" ,Value="7"},
+                       })
+                </td>
+            </tr>
+            <tr>
+                <td>ViewBag Data</td>
+                <td>@Html.DropDownList("Movielist", (IEnumerable<SelectListItem>)ViewBag.MovList)</td>
+            </tr>
+            <tr>
+                <td>ViewData</td>
+                <td>@Html.DropDownList("Movielist1", (IEnumerable<SelectListItem>)ViewData["MoveList"])</td>
+            </tr>
+            <tr>
+                <td>TempData</td>
+                <td>@Html.DropDownList("Movielist2", (IEnumerable<SelectListItem>)TempData["MovieList"])</td>
+            </tr>
+            <tr>
+                <td>Enum in Data</td>
+                <td>@Html.DropDownList("Movielist3", new SelectList(ViewBag.EnuMovList, "Value","Text"))</td>
+            </tr>
+        </table>
+    </div>
+</body>
+

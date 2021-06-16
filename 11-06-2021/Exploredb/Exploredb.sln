@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exploredb", "Exploredb\Expl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCWithADO", "MVCWithADO\MVCWithADO.csproj", "{A7A822F7-3BAD-48E7-A647-F684C62D6B9C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DropDLwithMVC", "DropDLwithMVC\DropDLwithMVC.csproj", "{64A9A83E-0A13-4241-A5C0-111AD96B4F35}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A7A822F7-3BAD-48E7-A647-F684C62D6B9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7A822F7-3BAD-48E7-A647-F684C62D6B9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7A822F7-3BAD-48E7-A647-F684C62D6B9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64A9A83E-0A13-4241-A5C0-111AD96B4F35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64A9A83E-0A13-4241-A5C0-111AD96B4F35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64A9A83E-0A13-4241-A5C0-111AD96B4F35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64A9A83E-0A13-4241-A5C0-111AD96B4F35}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
