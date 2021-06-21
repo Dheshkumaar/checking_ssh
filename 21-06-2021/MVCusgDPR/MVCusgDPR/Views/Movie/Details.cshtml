@@ -1,0 +1,34 @@
+﻿@model MVCusgDPR.Models.MovieModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>MovieModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.sno)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.sno)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MovieName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MovieName)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.sno }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

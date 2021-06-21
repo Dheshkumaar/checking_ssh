@@ -1,0 +1,49 @@
+﻿@model DropDown.Models.Dropdown
+
+@{
+    ViewBag.Title = "Index";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    @using (Html.BeginForm("Index", "Home", FormMethod.Post))
+    {
+        @Html.DropDownListFor(m => m.ProductCategoryID, Model.ProductCategory, "Please select", new { onchange = "document.forms[0].submit();" })
+        <br />
+        <br />
+
+        @Html.DropDownListFor(m => m.ProductSubcategoryID, Model.ProductSubCategory, "Please select", new { onchange = "document.forms[0].submit();", disabled = "disabled" })
+        <br />
+        <br />
+
+        @Html.DropDownListFor(m => m.ProductID, Model.Products, "Please select", new { disabled = "disabled" })
+        <br />
+        <br />
+        <input type="submit" value="Submit" />
+    }
+    <script type="text/javascript">
+        $(function () {
+            if ($("#ProductSubcategoryID option").length > 1) {
+                $("#ProductSubcategoryID").removeAttr("disabled");
+            }
+
+            if ($("#ProductID option").length > 1) {
+                $("#ProductID").removeAttr("disabled");
+            }
+
+            if ($("#ProductCategoryID").val() != "" && $("#ProductSubcategoryID").val() != "" && $("#ProductID").val() != "") {
+                var message = "Category: " + $("#ProductCategoryID option:selected").text();
+                message += "\nSubCategory: " + $("#ProductSubcategoryID option:selected").text();
+                message += "\nProduct: " + $("#ProductID option:selected").text();
+                alert(message);
+            }
+        });
+    </script>
+</body>
+</html>
+

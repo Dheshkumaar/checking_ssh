@@ -1,0 +1,13 @@
+﻿@model IEnumerable < EFWithDropDown.Models.Movy>
+@{
+    ViewBag.Title = "Linq";
+}
+
+<h2>Linq</h2>
+@{
+    foreach (var item in Model)
+    {
+        <td>@Html.DisplayFor(ModelItem => item.MovieName)</td><br>
+    }
+}
+

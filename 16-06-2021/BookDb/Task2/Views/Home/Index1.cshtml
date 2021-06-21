@@ -1,0 +1,27 @@
+﻿@using System.Data
+@model System.Data.DataTable
+
+@{
+    ViewBag.Title = "Index1";
+}
+
+<h2>Index1</h2>
+<body>
+    <h3>Department Details</h3>
+    <div>
+        <h4>List of Departments</h4>
+        <form method="post" action="@Url.Action("Display1","Home")">
+            <select name="Department" class="form-control">
+                <option selected>
+                    Department Names
+                </option>
+                @foreach (DataRow dr in Model.Rows)
+                {
+                    <option value="@dr["Name"].ToString()">@dr["Name"].ToString()</option>
+                }
+            </select>
+            <input class="form-control" type="submit" value="submit">
+        </form>
+    </div>
+</body>
+

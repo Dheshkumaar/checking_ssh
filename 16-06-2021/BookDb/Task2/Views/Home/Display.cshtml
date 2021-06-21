@@ -1,0 +1,33 @@
+﻿@model IEnumerable<Task2.Models.ClassModel>
+
+@{
+    ViewBag.Title = "Display";
+}
+
+<h2>Display</h2>
+
+<table class="table table-striped table-bordered">
+    <thead class="bg-dark text-white">
+        <tr>
+            <th>BusinessEntityID</th>
+            <th>FirstName</th>
+            <th>BirthDate</th>
+            <th>Gender</th>
+            <th>MaritalStatus</th>
+            <th>HireDate</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.employee.BusinessEntityID</td>
+                <td>@item.person.FirstName</td>
+                <td>@item.employee.BirthDate</td>
+                <td>@item.employee.Gender</td>
+                <td>@item.employee.MaritalStatus</td>
+                <td>@item.employee.HireDate</td>
+            </tr>
+        }
+    </tbody>
+</table>

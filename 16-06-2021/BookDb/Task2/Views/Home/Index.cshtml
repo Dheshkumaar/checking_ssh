@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<body>
+    <form action="@Url.Action("Display", "Home")" method="post">
+        Department Names: @Html.DropDownList("Department",(IEnumerable<SelectListItem>)ViewData["DeptEF"])
+        <input type="Submit" value="submit">
+    </form>
+</body>
+

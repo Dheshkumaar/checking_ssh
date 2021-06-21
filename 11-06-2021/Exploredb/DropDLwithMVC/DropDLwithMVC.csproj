@@ -97,55 +97,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Book.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>Book.edmx</DependentUpon>
-      <LastGenOutput>Book.Context.cs</LastGenOutput>
-    </Content>
-    <Content Include="Book.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>Book.edmx</DependentUpon>
-      <LastGenOutput>Book.cs</LastGenOutput>
-    </Content>
     <Content Include="Content\Site.css" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Book.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Book.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Book.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Book.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Book.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Book.edmx</DependentUpon>
-    </Compile>
     <Compile Include="Controllers\MoviesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
-    </Compile>
-    <Compile Include="Movy.cs">
-      <DependentUpon>Book.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
-    <EntityDeploy Include="Book.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>Book.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <Content Include="Book.edmx.diagram">
-      <DependentUpon>Book.edmx</DependentUpon>
-    </Content>
     <None Include="packages.config" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />

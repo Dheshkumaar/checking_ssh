@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        
+        $(document).ready(function () {
+            //$("#p1").mouseenter(function () {
+            //    alert("Your mouse entered the paragraph");
+            //})
+            $("#p1").mouseleave(function () {
+                $(this).css("background-color", "aqua");
+            });
+            $("button").click(function() {
+                $("#div1").fadeIn();
+                $("#div2").fadeIn("slow");
+                $("#div3").fadeIn(3000);
+            })
+        });
+        
+    </script>
+</head>
+<body>
+    <div>
+        <h2>Explore Mouse function</h2>
+        <p id="p1">Bring your cursor to the paragraph</p>
+        <ul>
+            <li>Icecream</li>
+            <li>Choclate</li>
+            <li>Fruits</li>
+        </ul>
+        <table>
+            <tr>
+                <th>Sno</th>
+                <th>Movie</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Mersal</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>F9</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>John wick</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <p>Demonstrate fadein() with different parameters.</p>
+        <button>Click to fade in boxes</button><br><br>
+    </div>
+    <div id="div1" style="width:100px;height:100px;display:none;background-color:aqua"></div>
+    <div id="div2" style="width:100px;height:100px;display:none;background-color:yellow"></div>
+    <div id="div3" style="width:100px;height:100px;display:none;background-color:red"></div>
+    <script>
+        $("table").hover(function () {
+            $("tr:even").css("background-color", "aqua");
+        });
+        $("li").click(function () {
+            alert($(this).text());
+        });
+    </script>
+</body>
+</html>
