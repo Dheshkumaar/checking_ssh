@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.31313.79
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCusgDPR", "MVCusgDPR\MVCusgDPR.csproj", "{2F4C9BCD-F378-4B64-9D88-CC1F7396DEF0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Philters", "Philters\Philters.csproj", "{AE3D69A3-C52D-43FD-A47A-925C19370679}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcWithReact", "MvcWithReact\MvcWithReact.csproj", "{7C2D61FB-71AB-498A-8BAD-E654BF47F47B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{2F4C9BCD-F378-4B64-9D88-CC1F7396DEF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F4C9BCD-F378-4B64-9D88-CC1F7396DEF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F4C9BCD-F378-4B64-9D88-CC1F7396DEF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE3D69A3-C52D-43FD-A47A-925C19370679}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE3D69A3-C52D-43FD-A47A-925C19370679}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE3D69A3-C52D-43FD-A47A-925C19370679}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE3D69A3-C52D-43FD-A47A-925C19370679}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C2D61FB-71AB-498A-8BAD-E654BF47F47B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C2D61FB-71AB-498A-8BAD-E654BF47F47B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C2D61FB-71AB-498A-8BAD-E654BF47F47B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C2D61FB-71AB-498A-8BAD-E654BF47F47B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

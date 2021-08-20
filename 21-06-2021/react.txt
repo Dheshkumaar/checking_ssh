@@ -1,0 +1,8 @@
+Bootstrap
+package console - install -package react.js
+nuget
+1.react.web.mvc
+2.javascript engine switcher V8
+	javascript engine switcher V8.winx64
+	javascript engine switcher V8.winx82
+3.create js folder in Scripts
